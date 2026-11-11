@@ -5,7 +5,7 @@ Build a graph, pick an algorithm, and move through its execution one step at a t
 
 Built with **Python**, **Streamlit**, **NetworkX** and **Pyvis**.
 
-🔗 **Live demo:** _add your Streamlit Cloud link here_
+🔗 **Live demo:** https://oren-graph-visualizer.streamlit.app/
 
 ---
 
