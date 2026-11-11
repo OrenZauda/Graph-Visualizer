@@ -68,4 +68,4 @@ Every algorithm subclasses `GraphAlgorithm` (in `algorithms/base.py`) and implem
 - `node_labels` / `edge_labels`: values to display (e.g. current distances, `flow/capacity`)
 - on the last step, `is_final=True` and the algorithm's `result`
 
-Because every algorithm returns the same step format, the UI and the renderer don't need any algorithm-specific code. Adding a new algorithm means writing one new `GraphAlgorithm` subclass and registering it in `app.py`. See [`algorithms/README.md`](algorithms/README.md) for details.
+Because every algorithm returns the same step format, the UI and the renderer don't need any algorithm-specific code. Adding a new algorithm means writing one new `GraphAlgorithm` subclass and registering it in `app.py`.
